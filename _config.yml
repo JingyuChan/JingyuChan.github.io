@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Alan's Blog
 subtitle:
 description:
 author: Jingyu Chen
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: hexo-theme-yelee-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
