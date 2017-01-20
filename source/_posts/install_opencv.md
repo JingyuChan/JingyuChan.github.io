@@ -32,12 +32,12 @@ categories: OpenCV
 在github下用 *git clone* 复制或直接下载 zip 文件并解压，获取OpenCV和opencv_contrib文件，并放在同一个文件夹下，方便后续操作，在该文件加下新建build文件夹，放置后续的编译文件。之后，下载安装CMake并安装好合适版本的Visual Studio，这里我们使用的是VS2013。
 
 ----
-### 生成工程文件
-在下载好的CMake文件夹中找到并打开 *cmake-gui.exe*，
+### 生成解决方案
+在下载好的CMake文件夹中找到并打开 *cmake-gui.exe*，将source code文件夹设置为存放OpenCV3.2的文件夹，并设置编译路径为build。可以看到，在下方的Name和Value中出现了很多选项，这些都是在编译的时候我们可以自行设置的。将Group框选中，可以更有条理地显示各个选项。点击configure，并根据提示修改部分编译选项，如有找不到文件路径可以取消该项编译，重新configure，直到所有的选项从红色变为白色。点击generate，生成解决方案。
 
-![](install_opencv/a.jpg)
+![](https://raw.githubusercontent.com/JingyuChan/jingyuchan.github.io/master/2017/01/19/install_opencv/opencv_buid1.png)
 
-{% asset_img a.jpg This is an example image %}
+
 
 *未完待续*
 
